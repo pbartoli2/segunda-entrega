@@ -1,0 +1,11 @@
+// reset
+@import './config/vars';
+@import './config/mixins';
+@import './config/reset.scss';
+// layout
+@import './cabeza';
+@import './principal';
+@import './pages';
+@import './pie';
+// media queries
+@import './mediaq';

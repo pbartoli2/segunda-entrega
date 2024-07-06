@@ -1,0 +1,27 @@
+//tipografia - font
+$title-principal: "Playwrite MX", cursive;
+$title-second: "Montserrat", cursive;
+$parrafos: "Montserrat", sans-serif;
+//variables
+$light: 300;
+$regular: 400;
+$bold: 700;
+$extra-bold: 900;
+//colores
+
+//MAPAS 
+//redes sociales contacto
+/*pagina de contacto mapas*/
+$icons-rrss: (
+    instagram: #460066,
+    facebook: #0a0066,
+    gmail: #cc0000,
+    whatsapp: #006627,
+);
+//  red         tono
+@each $red, $tono in $icons-rrss{
+    .icons-rrss-#{$red}{
+        color: $tono;
+        font-weight: $extra-bold;
+    }
+}

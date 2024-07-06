@@ -1,0 +1,8 @@
+//mixin con parametros
+//declaraciones de un parametro ejemplo width y height o margin y padding
+@mixin espacios ($p, $m) {
+    padding: $p;
+    margin: $m;
+}
+//luego lo invoco en el scss correspondiente ejemplo
+// @include espacios (10px -valor de padding, 20px -valor de margin)

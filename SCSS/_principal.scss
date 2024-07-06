@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(rgb(98, 248, 98),rgb(160, 241, 160));
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/*tamaño de carrusel*/
+.carousel {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.carousel-inner img {
+    width: 50%;
+    max-height: 500px;
+}
+.carousel-inner{
+ height: 500px;
+}

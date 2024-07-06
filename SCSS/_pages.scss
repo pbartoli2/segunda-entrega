@@ -1,0 +1,60 @@
+/*paginas*/
+.actividades{
+    display: none;
+    &__tipos{
+      font-family: $title-second;
+      font-weight: $bold;
+    }
+    &__textos{
+      font-family: $parrafos;
+      font-weight: $regular;
+    }
+}
+.formaciongeneral{
+  display: block;
+  &__horario{
+    font-family: $title-second;
+    font-weight: $bold;
+  }
+  &__tipos{
+    margin: 5px;
+    font-family: $title-second;
+    font-weight: $bold;
+  }
+  &__texto{
+    font-family: $parrafos;
+    font-weight: $regular;
+  }
+  img{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 0;
+    width: 50%;
+    height: 50%;
+  }
+}
+/*formulario de quienes somos*/
+.form {
+  display: block;
+  text-align: left;
+  width: 100%;
+  font-family: $parrafos;
+  font-size: 1em;
+  margin-left: 20px;
+}
+.boton {
+  width: 50px;
+  height: 30px;
+  font-size: 12px;
+  background-color: #71bb96;
+}
+.opiniones {
+  font-size: 15px;
+  width: 100%;
+  padding: 7px;
+  margin: 5px;
+  &__ustedes{
+    padding: 5px;
+  }
+}
