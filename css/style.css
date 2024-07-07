@@ -163,6 +163,29 @@ body {
   padding: 5px;
 }
 
+.img-logopie {
+  animation-name: logo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 footer {
   margin: 0;
   padding: 20px;
