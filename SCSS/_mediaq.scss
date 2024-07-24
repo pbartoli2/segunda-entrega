@@ -28,7 +28,6 @@
         position: absolute;
         right: 40px;
         top: 40px;
-        z-index: 9999;
         &:hover {
             color: rgb(11, 128, 69);
         }
@@ -45,6 +44,7 @@
     .menunav {
         nav{
     position: absolute;
+    z-index: 9999;
     top: 0%;
     right: 0;
     height: 100%;
@@ -106,5 +106,8 @@
     left: 5%;
     top: 5%;
     height: 100%;
+   }
+   .quienesomos{
+    display: block;
    }
 }

@@ -1,4 +1,4 @@
-/*paginas*/
+/*pagina actividades*/
 .actividades{
     display: none;
     &__tipos{
@@ -10,6 +10,7 @@
       font-weight: $regular;
     }
 }
+/*pagina de formacion*/
 .formaciongeneral{
   display: block;
   &__horario{
@@ -24,6 +25,11 @@
   &__texto{
     font-family: $parrafos;
     font-weight: $regular;
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
   }
   img{
     display: inline-block;
@@ -35,10 +41,36 @@
   }
 }
 /*formulario de quienes somos*/
+.quienesomos{
+  display: flex;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+  &__p-valores{
+    background-color: rgba(98, 212, 133, 0.705);
+    box-shadow: 0px 0px 7px 7px rgb(54, 70, 58);
+    border-radius: 15px;
+    margin: 5px;
+    p{
+      padding: 7px;
+      text-align: justify;
+    }
+  }
+  &__p-espacio{
+    margin: 5px;
+    background-color: rgba(98, 212, 133, 0.705);
+    box-shadow: 0px 0px 7px 7px rgb(54, 70, 58);
+    border-radius: 15px;
+    p{
+      padding: 7px;
+      text-align: justify;
+    }
+  }
+}
 .form {
   display: block;
   text-align: left;
-  width: 100%;
+  width: auto;
   font-family: $parrafos;
   font-size: 1em;
   margin-left: 20px;
@@ -51,10 +83,13 @@
 }
 .opiniones {
   font-size: 15px;
-  width: 100%;
-  padding: 7px;
-  margin: 5px;
-  &__ustedes{
+  padding: 10px;
+  width: auto;
+  margin: 15px;
+  background-color: rgba(74, 175, 104, 0.548);
+  box-shadow: 0px 0px 7px 7px rgb(54, 70, 58);
+  border-radius: 15px;
+   &__ustedes{
     padding: 5px;
   }
 }
@@ -80,3 +115,4 @@
     opacity: 1;
   }
 }
+/*pagina de contacto*/
