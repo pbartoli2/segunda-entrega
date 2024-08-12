@@ -1,6 +1,7 @@
 @media only screen and (max-width: 760px) {
-    .cabecera h1{
-        display: none;
+    .cabecera {
+        h1 { display: none;
+        }
         a {
             padding: 0;
         }
@@ -40,6 +41,7 @@
     }
     #menu-check:checked ~ label #menu-cerrar {
         display: block;
+        text-align: left;
     }
     .menunav {
         nav{

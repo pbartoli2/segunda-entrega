@@ -68,7 +68,6 @@
 
 h1 {
   font-family: "Playwrite MX", cursive;
-  display: none;
 }
 
 nav {
@@ -237,14 +236,14 @@ footer footer img {
   .cabecera h1 {
     display: none;
   }
-  .cabecera h1 a {
+  .cabecera a {
     padding: 0;
   }
-  .cabecera h1 .menunav {
+  .cabecera .menunav {
     display: flex;
     place-content: space-between;
   }
-  .cabecera h1 .menunav img {
+  .cabecera .menunav img {
     width: 100px;
     text-align: left;
   }
@@ -275,6 +274,7 @@ footer footer img {
   }
   #menu-check:checked ~ label #menu-cerrar {
     display: block;
+    text-align: left;
   }
   .menunav nav {
     position: absolute;
