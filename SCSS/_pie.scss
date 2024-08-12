@@ -1,7 +1,6 @@
 //footer
 footer{
-    margin: 0;
-    padding: 20px;
+    @include espacios(20px, 0px);
     text-align: center;
   footer img{
     margin: 15px;
